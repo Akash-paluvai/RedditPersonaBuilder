@@ -4,6 +4,8 @@ This tool analyzes a Reddit user's posts and comments to generate a psychologica
 
 This CLI tool scrapes a Reddit user's recent posts and comments, then generates a detailed user persona using an LLM (DeepSeek via OpenRouter API). Each persona characteristic is cited with the original post/comment.
 
+![PEP8](https://img.shields.io/badge/code%20style-pep8-brightgreen.svg)
+
 ## Features
 - **Scrapes** up to 50 comments and 50 submissions per user
 - **Analyzes** content with DeepSeek LLM through OpenRouter
